@@ -10,6 +10,10 @@
     "name": "Tilmann Meyer",
     "email": "allescrafterx@gmail.com"
   },
+  "scripts": {
+    "lint": "eslint .",
+    "release": "semantic-release"
+  },
   "license": "MIT",
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
@@ -34,5 +38,14 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0"
+  },
+  "optionalDependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.2.0",
+    "@semantic-release/git": "^7.0.12",
+    "@semantic-release/github": "^5.4.0",
+    "@semantic-release/npm": "^5.1.9",
+    "@semantic-release/release-notes-generator": "^7.2.0",
+    "semantic-release": "^15.13.16"
   }
 }

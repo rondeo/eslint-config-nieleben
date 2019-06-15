@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - node
+
+if: type != push OR (tag IS blank AND branch = master)
+
+stages:
+  - test
+  - name: deploy
+    if: branch = master AND type != pull_request
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - yarn run lint
+      name: 'Linting'
+    - stage: Deploy
+      script:
+        - yarn run release
+      name: 'Deploying'
+
+cache: yarn
