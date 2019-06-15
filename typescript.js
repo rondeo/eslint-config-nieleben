@@ -1,5 +1,7 @@
+const allExtensions = ['.ts', '.tsx', '.d.ts', '.js', '.jsx'];
+
 module.exports = {
-  extends: ['./lib/shared.js', 'plugin:eslint-plugin-import/typescript'].map(require.resolve),
+  extends: ['./lib/shared.js'].map(require.resolve),
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
@@ -19,12 +21,15 @@ module.exports = {
     ],
   },
   settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
+    },
     'import/resolver': {
       node: {
         paths: ['./', 'node_modules'],
-        extensions: ['.js', '.ts', '.jsx', '.tsx', '.json'],
+        extensions: allExtensions,
       },
     },
-    'import/extensions': ['.js', '.ts', '.mjs', '.jsx', '.tsx'],
+    'import/extensions': allExtensions,
   },
 };
