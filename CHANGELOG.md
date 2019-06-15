@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.6...v1.1.7) (2019-06-15)
+
+
+### Bug Fixes
+
+* fix fix and more fixes ([68995e8](https://github.com/NieLeben/eslint-config-nieleben/commit/68995e8))
+
 ## [1.1.6](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.5...v1.1.6) (2019-06-15)
 
 
