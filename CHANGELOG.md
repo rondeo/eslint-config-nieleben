@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.3...v1.1.4) (2019-06-15)
+
+
+### Bug Fixes
+
+* fix. maby ([1a0a0f2](https://github.com/NieLeben/eslint-config-nieleben/commit/1a0a0f2))
+
 ## [1.1.3](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.2...v1.1.3) (2019-06-15)
 
 
