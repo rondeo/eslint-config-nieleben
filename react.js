@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./lib/shared.js', 'airbnb'].map(require.resolve),
+  extends: ['./lib/shared.js', 'eslint-config-airbnb'].map(require.resolve),
   rules: {
     'import/extensions': [
       'error',
