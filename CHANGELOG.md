@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.0.0...v1.1.0) (2019-06-15)
+
+
+### Features
+
+* trigger ([299469e](https://github.com/NieLeben/eslint-config-nieleben/commit/299469e))
+
 # 1.0.0 (2019-06-15)
 
 
