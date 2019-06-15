@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.0...v1.1.1) (2019-06-15)
+
+
+### Bug Fixes
+
+* **ts:** Removed import/typescript ([c3a9e1b](https://github.com/NieLeben/eslint-config-nieleben/commit/c3a9e1b))
+
 # [1.1.0](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.0.0...v1.1.0) (2019-06-15)
 
 
