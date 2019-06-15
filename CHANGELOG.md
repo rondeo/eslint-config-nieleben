@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.5...v1.1.6) (2019-06-15)
+
+
+### Bug Fixes
+
+* **indent:** Added eslint-config-react for disabling indents ([de6a9b9](https://github.com/NieLeben/eslint-config-nieleben/commit/de6a9b9))
+
 ## [1.1.5](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.4...v1.1.5) (2019-06-15)
 
 
