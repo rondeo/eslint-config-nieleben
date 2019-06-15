@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.4...v1.1.5) (2019-06-15)
+
+
+### Bug Fixes
+
+* react methods use this ([2c90c82](https://github.com/NieLeben/eslint-config-nieleben/commit/2c90c82))
+
 ## [1.1.4](https://github.com/NieLeben/eslint-config-nieleben/compare/v1.1.3...v1.1.4) (2019-06-15)
 
 
