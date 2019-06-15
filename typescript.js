@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./lib/shared.js', 'plugin:import/typescript'].map(require.resolve),
+  extends: ['./lib/shared.js', 'plugin:eslint-plugin-import/typescript'].map(require.resolve),
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
